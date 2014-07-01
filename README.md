@@ -18,6 +18,8 @@ Now, the next non-zero integer in the list 3, is set as the new pivot. It is pri
 
 ![Screenshot4](/docs/screenshots/screenshot4.jpg)
 
-This process continues taking the next non-zero integer in the list as the new pivot and deleting all multiples of the pivot from the list. The process is complete when the pivot reaches the square root of the original integer provided by the user. At this point, only the prime numbers remain, whereby they are counted and printed to the console.
+This process continues taking the next non-zero integer in the list as the new pivot and deleting all multiples of the pivot from the list. The process is complete when the pivot reaches the square root of the original integer provided by the user. 
+
+At this point, only the prime numbers remain, whereby they are counted and printed to the console.
 
 ![Screenshot5](/docs/screenshots/screenshot5.jpg) 
