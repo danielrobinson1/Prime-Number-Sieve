@@ -66,12 +66,7 @@ int main()
         cout << "Enter an integer greater than 1: ";
         string line;
         getline(cin,line);
-        cout << line;
-        cout << line.c_str();
-        input = atoi(line.c_str()); // atoi converts a string to an integer. Returns 0 if
-                                    // original string was not an integer.
-                                    // Is there a better way to convert strings to integers?
-        cout << input;
+        input = atoi(line.c_str()); //Convert string to integer.
         Validate(input);
     }
     GenerateList(input);
